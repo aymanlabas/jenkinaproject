@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class jenkins {
     @GetMapping("/hello")
     public String index() {
-        return "Hello Jenkins CI/CD - version 2 again!";
+        return "Hello Jenkins CI/CD - version 3 again!";
     }
 
 }
